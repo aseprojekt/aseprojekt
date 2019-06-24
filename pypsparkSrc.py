@@ -15,8 +15,6 @@ def convert_data(srcFilename, dstFilename):
 
 
 if __name__ == '__main__':
-    convert_data('dataMay-31-2017.json', 'preparedData.txt')
-
     spark_ctx = SparkContext()
     sql_ctx = SQLContext(spark_ctx)
 
